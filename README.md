@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasWeakSetSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-weakset-support@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-weakset-support/tags). For example,
+
+```javascript
 import hasWeakSetSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-weakset-support@v0.2.1-esm/index.mjs';
 ```
 
@@ -70,7 +75,7 @@ var bool = hasWeakSetSupport();
 <body>
 <script type="module">
 
-import hasWeakSetSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-weakset-support@v0.2.1-esm/index.mjs';
+import hasWeakSetSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-weakset-support@esm/index.mjs';
 
 var bool = hasWeakSetSupport();
 if ( bool ) {
