@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasWeakSetSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-weakset-support@deno/mod.js';
+import hasWeakSetSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-weakset-support@v0.2.2-deno/mod.js';
 ```
 
 #### hasWeakSetSupport()
@@ -65,7 +65,7 @@ var bool = hasWeakSetSupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasWeakSetSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-weakset-support@deno/mod.js';
+import hasWeakSetSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-weakset-support@v0.2.2-deno/mod.js';
 
 var bool = hasWeakSetSupport();
 if ( bool ) {
